@@ -1,0 +1,72 @@
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+header {
+    margin: 0 0 12px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid black;
+}
+
+header nav a {
+    color: black;
+    padding: 12px;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1em;
+    font-family: sans-serif;
+    margin-bottom: 0.15em;
+}
+
+h1 {
+    line-height: 1em;
+    font-size: 2em;
+}
+
+p {
+    margin: 0;
+    display: inline-block;
+    line-height: 1.5em;
+    font-family: sans-serif;
+}
+
+p + p {
+    margin-top: 1em;
+}
+
+article a {
+    color: #2354ff;
+}
+
+article a:visited{
+    color: #cb0050;
+}
+
+abbr {
+    cursor: help;
+    display: inline-block;
+    line-height: .75em;
+    border-bottom: 1px dotted;
+}
+
+ul, ol {
+    margin: 1em 0 0;
+    line-height: 1.5em;
+    padding-left: 0;
+}
+
+li {
+    font-family: sans-serif;
+}
